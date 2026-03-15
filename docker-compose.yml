@@ -7,7 +7,6 @@ services:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: db
-      NODE_INDEX: 1
     ports:
       - "5432:5432"
     healthcheck:
@@ -28,7 +27,6 @@ services:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: db
-      NODE_INDEX: 2
     ports:
       - "5433:5432"
     healthcheck:
